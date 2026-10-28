@@ -110,3 +110,40 @@ nav a:hover {
     font-size: 28px;
     font-weight: bold;
 }
+
+/* MOBILE VERSION */
+@media screen and (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .logo img {
+        width: 55px;
+    }
+    .nav ul{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .nav a{
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .main-content {
+        padding: 25px 15px;
+    }
+
+    .main-content h1 {
+        font-size: 26px;
+    }
+    .main-content p {
+        font-size: 14px;
+    }
+}
