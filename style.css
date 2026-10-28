@@ -105,7 +105,8 @@ nav a:hover {
 
 .logo-span {
     position: relative;
-    left: -25px;
+    left: -20px;
+    top: -20px;
     color: #fffaf5;
     font-size: 28px;
     font-weight: bold;
