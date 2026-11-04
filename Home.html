@@ -3,34 +3,96 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar </title>
+    <title>Here To Marry for Life</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-<body>
 
-<section class="header">
-    <div class="top-bar">
-        <a href="index.html" class="logo">
-            <img src="LOGOhtmlNoBG.png" alt="HTML logo">
-            <span>Here To Marry for Life</span>
-        </a>
+<body class="home-page">
 
-        <nav>
+<div class="site-shell">
+
+    <header class="top-bar">
+        <a class=   "brand" href="index.html" aria-label="Here To Marry for Life home">
+            <img src="LOGOhtmlNoBG.png" alt="Wedding emblem"></a>
+
+        <a class="site-title" href="index.html">HTML</a>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Details.html">About</a></li>
+                <li><a href="TheDay.html">The Day</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a class="rsvp-button" href="RSVP.html">RSVP ↗</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
 
-<section>
-    <h1>Home</h1>
-    <p>Welcome to our wedding website! We’re so happy to share this special moment with you. Join us as we celebrate our love, make wonderful memories, and begin this new chapter together.</p>
-    </section>
-</section>
+    <main class="home-main">
+        <section class="home-hero">
+            <div class="hero-copy">
+                <p class="eyebrow">A little celebration of love</p>
+                <h1>HTML</h1>
+                <p class="hero-intro">Here To Marry for Life</p>
+
+                <a class="button" href="Gallery.html">
+                    Explore the day.<span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <p class="hero-note">
+                Together with our families<br>
+                we can't wait to celebrate with you
+            </p>
+
+        </section>
+        <section class="save-date">
+            <div class="intro-mark">✵</div>
+            <p class="eyebrow">Save the date</p>
+            <h2><b>H</b>ere <b>T</b>o <b>M</b>ake <em><b>L</b>ong-lasting memories</em></h2>
+            <p>
+                <b>Welcome to our big celebration!</b><br>
+                Two hearts, one big celebration! Come share the laughter, <br>
+                love, and unforgettable moments <br>
+                as we begin our forever.
+            </p>
+            <a class="save-date-link" href="RSVP.html">Let us know you'll be there ↗</a>
+        </section>
+
+        <section class="featured-photo" aria-label="Feature wedding photo">
+            <img src="church.jpg" alt="The church where the wedding will take place">
+            <span class="photo-count">01 / 03</span>
+            <span class="photo-caption">Blessed to begin this new chapter together.</span>
+        </section>
+        <section class="home-links" aria-label="Explore the wedding website">
+            <a class="home-link-card" href="Details.html">
+                <span class="card-number">01</span>
+                <h3>How it began</h3>
+                <p>A chance meeting, and a story still unfolding.</p>
+                <span class="card-link">Read our story ↗</span>
+            </a>
+
+            <a class="home-link-card" href="TheDay.html">
+                <span class="card-number">02</span>
+                <h3>The Celebration</h3>
+                <p>Find out more about our special day.</p>
+                <span class="card-link">See the details ↗</span>
+            </a>
+
+            <a class="home-link-card" href="Gallery.html">
+                <span class="card-number">03</span>
+                <h3>Little moments</h3>
+                <p>A few snapshots from the life we're building together.</p>
+                <span class="card-link">View the gallery ↗</span>
+            </a>
+        </section>
+
+    </main>
+    <footer class="site-footer home-footer">
+        <a class="footer-brand" href="index.html">HTML</a>
+        <p>December 19, 2027 | Hillcreeks Gardens Tagaytay</p>
+        <a class="footer-link" href="RSVP.html">RSVP by Nov 15 ↗</a>
+    </footer>
+
+</div>
 </body>
-
 </html>
